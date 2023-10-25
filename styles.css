@@ -42,13 +42,6 @@ nav ul li a {
 main {
     padding: 20px;
 }
-.content-container {
-    background-image: url("for web.jpg"); /* Replace with your image file path or URL */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px; /* Adjust the height as needed */
-}
 
 /* Style the sections within the main content */
 h2 {
@@ -78,4 +71,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.content-container {
+    background-image: url("for web.jpg"); /* Replace with your image file path or URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; /* Adjust the height as needed */
 }
