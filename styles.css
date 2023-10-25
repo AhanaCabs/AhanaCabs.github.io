@@ -42,7 +42,7 @@ nav ul li a {
 main {
     padding: 20px;
 }
-.background-image {
+.content-container {
     background-image: url("for web.jpg"); /* Replace with your image file path or URL */
     background-size: cover;
     background-position: center;
