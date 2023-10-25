@@ -19,13 +19,6 @@ header {
     padding: 20px;
 }
 
-.content-container {
-    background-image: url("for web.jpg"); /* Replace with your image file path or URL */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   /* height: 400px; /* Adjust the height as needed */
-}
 /* Style the navigation menu */
 nav ul {
     list-style: none;
@@ -48,6 +41,9 @@ nav ul li a {
 /* Style the main content section */
 main {
     padding: 20px;
+    background-image: url("for web.jpg"); /* Replace with your image file path or URL */
+    background-size: cover;
+    background-attachment: fixed; /* Optional for a fixed background */
 }
 
 /* Style the sections within the main content */
@@ -79,4 +75,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
